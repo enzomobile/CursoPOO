@@ -1,0 +1,3 @@
+Nessa prática eu usei os 3 tipos de métodos apresentados: getters, setters e contruct.
+No PHP o construct é definido __construct() ou o próprio nome da classe, se a classe é Caneta -> function Caneta() para o constructor. É a função que ocorre automáticamente quando um objeto é instanciado.
+Criei vários métodos para deixar a manutenção de atributos mais simples.

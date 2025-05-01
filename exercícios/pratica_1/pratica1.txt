@@ -1,0 +1,4 @@
+Aqui eu aprendo a criar uma classe e a instanciar objetos. 
+No php, para eu me referir aos objetos na classe, eu uso $this, para eu fazer um objeto realizar algo sobre ele, como chamar uma característica ou método, eu uso ->
+
+Eu uso print_r e var_dump para verificar o estado dos objetos c1 e c2. Um exercício simples, mas muito interessante.

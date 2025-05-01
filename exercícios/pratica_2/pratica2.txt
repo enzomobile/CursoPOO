@@ -1,0 +1,1 @@
+Na segunda prática eu aprendi que tudo o que é public pode ser acessado e alterado a vontade, tudo o que é private pode ser alterado apenas dentro da classe, através de seus métodos. E tudo o que é protegido pode ser alterado dentro da classe e de classe baseadas na classe mãe.

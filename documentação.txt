@@ -1,0 +1,35 @@
+Nesse curso, vou utilizar PHP para aprender os conceitos da programção orientada a objetos.
+
+Os primeiros conceitos abordados são: Classes e Objetos.
+A classe é como um molde, ela define atributos e regras, para que sejam criadas a partir de si os objetos.
+A classe é um molde e o objeto é o resultado do uso desse molde, mas os objetos podem variar suas características entre si.
+O exemplo de canetas é usado, canetas seguem um molde, classe, mas podem ter cor diferentes e formatos um pouco diferentes, mas a funcionalidade é a mesma.
+
+Objetos criados por classe possuem: Atributos, métodos e estado.
+Os atributos são suas características: cor, modelo, ano, nome, forma física, entre muito e muitas outras coisas.
+Métodos são as funcionalidades desse objeto, o que ele faz. (outro nome para funções).
+Estado é como o objeto está, se ele está com cor tal, se a forma física é essa, se o nome é o mesmo, etc.
+
+A classe define os atributos e métodos, o estado pode ser alterado, e isso depende do objeto.
+A criação de um objeto através de uma classe se chama instanciamento
+
+Classe -> Definição de atributos e métodos.
+Objeto -> Instância de uma classe, tendo seu estado definido com sua criação.
+
+Conceitos de POO:
+
+||Abstração -> Separação de atributos e métodos em um objeto que são relevantes para algo. Um exemplo seria:
+Você ter o objeto pessoa vindo da classe humano, tem MUITAS características, mas para o cadastro dessa pessoa no gov.br, você usa alguns dados, ao invés de TODOS. Isso é abstração, de forma bem simples.
+
+||Visibilidade -> Indica o nível de acesso aos componentes de uma classe, você tem esses indicadores: + (public), - (private), # (protected).
+
++ -> Uma classe public pode ser acessada e utilizada em qualquert instância.
+- -> Uma classe private pode ser acessada apenas dentro da própria classe e seus objetos.
+# -> Uma classe protected pode ser acessada apenas pela própria classe e por classes derivadas dessa mesma.
+--PHP apenas-- -> var -> Isso determina uma visibilidade padrão para os atributos, coisa que fiz no primeiro ex. São públicos.
+
+||Métodos de Acesso ou Getters -> São métodos que têm a função de obter dados específicos, garantindo que um objeto não tenha acesso a todos os atributos de uma classe.
+
+||Métodos Modificadores ou Setters -> São métodos com a função de destinar dados da forma correta a um atributo. Altera o valor de um atributo. 
+
+||Método Construtor ou Construct -> Ao instânciar um objeto, o método constructor tem como função pré-definir alguns atributos desse novo objeto, sem a necessidade de serem definidos após sua criação. Assim como se é feito em uma linha de produção, por exemplo.
