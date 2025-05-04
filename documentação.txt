@@ -16,6 +16,12 @@ A criação de um objeto através de uma classe se chama instanciamento
 Classe -> Definição de atributos e métodos.
 Objeto -> Instância de uma classe, tendo seu estado definido com sua criação.
 
+São considerados três pilares no POO: Encapsulamento, herança e polimorfismo.
+
+||Encapsulamento: Esse pilar define que todo software deve ser imutável perante o usuário e a si mesma ou semelhantes, um código encapsulado é aquele que não precisa de interação interna para ser utilizado e reconhecido. No encapsulamento, o conceito de mensagens é a troca de pergunta e informação com a capsula, você manda algo, a capsula responde. O local onde se tem a interação, é chamada de INTERFACE, é a lista de serviços fornecidos por um componente, sendo o contato com o mundo exteriror que define o que o objeto dessa classe faz.
+**INTERFACE: Uma interface é semelhante a uma classe, com a diferença central sendo a falta de atributos, apenas tendo métodos. Uma interface é o que vai por cima de um objeto instânciado de uma classe, dando mais firmeza e eficiência ao programa. Os métodos de uma interface são chamados de métodos abstratos, métodos com intuito mas não implementados/programados. Eles ocorrem não na interface, mas sim no sistema. Em toda interface, todos os métodos são public, já que são totalmente acessíveis a qualquer um.
+  Para os métodos abstratos ganharem a sua funcção, você deve, na classe, chamar a interface. Assim você adiciona os métodos abstratos na interface e também as suas funcionalidades.
+
 Conceitos de POO:
 
 ||Abstração -> Separação de atributos e métodos em um objeto que são relevantes para algo. Um exemplo seria:

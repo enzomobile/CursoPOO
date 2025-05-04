@@ -1,0 +1,1 @@
+Na prática 5 eu aprendi a usar um dos pilares, o encapsulamento. Criando um arquivo para interface, usando ele em minha classe e aplicando suas funcionalidades básicas em um arquivo index. Encapsular permite reutilização de código junto de uma ótima proteção contra danos externos e internos.
