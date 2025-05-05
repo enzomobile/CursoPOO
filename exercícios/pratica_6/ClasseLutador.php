@@ -12,19 +12,27 @@
         private $empates;
 
         public function apresentar() {
-
+            echo "<p>Lutador: {$this->getNome()}</p>";
+            echo "<p>Origem: {$this->getNacionalidade()}</p>";
+            echo "<p>Idade: {$this->getIdade()} anos.</p>";
+            echo "<p>Altura: {$this->getAltura()}m</p>";
+            echo "<p>Peso: {$this->getPeso()}kg</p>";
+            echo "<p>Ganhou: {$this->getVitorias()} vezes</p>";
+            echo "<p>Perdeu: {$this->getDerrotas()} vezes</p>";
+            echo "<p>Empatou {$this->getEmpates()} vezes</p>";
         }
         public function status() {
-
+            echo "<p>{$this->getNome()}</p>";
+            echo "<p>É peso {$this->getCategoria()}</p>";
         }
         public function ganharLuta() {
-
+            $this->setVitorias($this->getVitorias() + 1);
         }
         public function perderLuta() {
-
+            $this->setDerrotas($this->getDerrotas() + 1);
         }
         public function empatarLuta() {
-
+            $this->setEmpates($this->getEmpates() + 1);
         }
 
         public function __construct($n, $na, $i, $a, $p, $v, $d, $e)
@@ -81,9 +89,20 @@
         }
         public function setPeso($p) {
             $this->peso = $p;
+            $this->setCategoria($p);
         }
-        public function setCategoria($c) {
-            $this->categoria = $c;
+        public function setCategoria($p) {
+            if ($p <= 52.2) {
+                $this->setCategoria("Inválido");
+            }elseif ($p <= 70.3) {
+                $this->setCategoria("Leve");
+            } elseif ($p <= 83.9) {
+                $this->setCategoria("Médio");
+            } elseif ($p <= 120.2) {
+                $this->setCategoria("Pesado");
+            } else {
+                $this->setCategoria("Inválido");
+            }
         }
         public function setVitorias($v) {
             $this->vitorias = $v;
