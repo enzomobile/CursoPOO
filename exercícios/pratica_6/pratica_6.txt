@@ -1,0 +1,4 @@
+Nessa prática eu estou aprendendo a relacionar duas classes usando agregação.
+Eu criei duas classes, a lutador e luta. Na classe luta eu requiri a luta, pois lutadores lutam.
+Na lutador eu crio meus lutadores e na luta eu marco minhas lutas programadas entre dois lutadores.
+É bem simples, e desse jeito eu entendi o conceito de interação entre classes com agregação.
