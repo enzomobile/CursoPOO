@@ -13,12 +13,12 @@
 
         }
         
-        public function __construct($ti, $au, $t, $p, $ab, $le) {
+        public function __construct($ti, $au, $t, $le) {
             $this->setTitulo($ti);
             $this->setAutor($au);
             $this->setTotPaginas($t);
-            $this->setPagAtual($p);
-            $this->setAberto($ab);
+            $this->setPagAtual(0);
+            $this->setAberto(false);
             $this->setLeitor($le);
         }
 
