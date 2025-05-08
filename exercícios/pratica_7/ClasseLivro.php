@@ -1,6 +1,7 @@
 <?php
+    require_once 'ClassePessoa.php';
     require_once 'InterfacePublicacao.php';
-    Class Livro {
+    Class Livro implements Publicacao{
 
         private $titulo;
         private $autor;
@@ -12,7 +13,27 @@
         public function detalhes() {
 
         }
-        
+
+        public function abrir() {
+            $this->setAberto(true);
+        }
+        public function fechar() {
+            $this->setAberto(false);
+        }
+        public function folhear($p) {
+            if ($p > $this->getTotPaginas()) {
+                $this->setPagAtual(0);
+            } else {
+                $this->setPagAtual($p);
+            }
+        }
+        public function avancarPag() {
+            $this->setPagAtual($this->getPagAtual() + 1);
+        }
+        public function voltarPag() {
+            $this->setPagAtual($this->getPagAtual() - 1);
+        }
+    
         public function __construct($ti, $au, $t, $le) {
             $this->setTitulo($ti);
             $this->setAutor($au);
