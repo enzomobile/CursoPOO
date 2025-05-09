@@ -6,3 +6,5 @@ Método Final: Não pode ser sobre-escrito, apenas herdado do jeito que é.
 
 Existe herança para implementação e para diferença, a diferença é de que para implementação apenas agrega uma classe toda para outra
 e para diferença você agrega e adiciona mais para a nova classe.
+
+Usei todos os conceitos anteriores, com keyword 'final' e 'abstract' nas classes e métodos.

@@ -4,8 +4,8 @@
         private $idade;
         private $sexo;
 
-        public function FazerAniver() {
-
+        final public function FazerAniver() {
+            $this->setIdade($this->getIdade() + 1);
         }
 
         public function __construct($n, $i, $s) {
