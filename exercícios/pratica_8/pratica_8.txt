@@ -1,0 +1,6 @@
+Herança -> Basear uma nova classe baseada nas características de outra classe já existente.
+O exemplo utilizado para explicar herança + hierárquia é pessoas e profissões.
+Todo funcionário é uma pessoa, mas nem todo funcionário faz a mesma coisa.
+Você tem professores, diretores, guardas, etc. Mas todos HERDAM características de uma pessoa.
+Assim, você propõem a classe pessoa, e também as classes de cada profissão.
+Usando 'extends' em uma das profissões, você coloca a classe pessoa, fazendo assim com que as profissões herdem nome, idade, sexo, entre outras características de uma pessoa normal.

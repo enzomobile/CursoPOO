@@ -19,7 +19,13 @@
         $l[1] = new Livro("Jorge, o Brabo", "Jorge", 250, $p[1]);
         $l[2] = new Livro("Os contos do Camelo", "Jean", 400, $p[2]);
 
-        print_r($l[0]);
+        $l[0]->abrir();
+        $l[0]->folhear(130);
+        $l[0]->detalhes();
+
+        $l[1]->abrir();
+        $l[1]->folhear(220);
+        $l[1]->detalhes();
     ?>
     </pre>
 </body>

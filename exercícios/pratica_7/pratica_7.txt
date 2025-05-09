@@ -1,0 +1,1 @@
+Essa prática foi para juntar os conteúdos vistos nas auals anteriores. Usando Encapsulamento e agregação. Agora vou para Herança.

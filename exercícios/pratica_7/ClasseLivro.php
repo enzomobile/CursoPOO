@@ -11,7 +11,10 @@
         private $leitor;
 
         public function detalhes() {
-
+            echo "<p>Livro: {$this->getTitulo()}, escrito por: {$this->getAutor()}</p>";
+            echo "<p>Páginas: {$this->getTotPaginas()}</p>";
+            echo "<p>Sendo lido por {$this->leitor->getNome()}</p>";
+            echo "<p>--------------------------------------</p>";
         }
 
         public function abrir() {
