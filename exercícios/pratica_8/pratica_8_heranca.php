@@ -6,6 +6,7 @@
     <title>Prática 8 - Herança</title>
 </head>
 <body>
+    <pre>
     <?php 
         require_once 'ClassePessoa.php';
         require_once 'ClasseFuncionario.php';
@@ -16,6 +17,11 @@
         $p[1] = new Funcionario("Maria", 30, "Feminino", "RH", true);
         $p[2] = new Professor("João", 40, "Masculino", "Matemática", 2000);
         $p[3] = new Aluno("Ana", 22, "Feminino", 12345, "Engenharia");
+
+        print_r($p[01]);
+        $p[3]->setCurso("Informátca");
+        print_r($p[3]);
     ?>
+    </pre>
 </body>
 </html>

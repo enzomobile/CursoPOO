@@ -1,0 +1,8 @@
+Na segunda prática, eu vi os conceitos de Classe abstrata, método abstratos e Classes finais e métodos finais.
+Classes Abstratas: É uma classe que só é criada, não se instância com ela. Usa apenas para ser progenitora.
+Método Abstrato: É um método que é declarado, mas não implementado, foi visto anteriormente.
+Classe Final: Não pode ser herdada, é a última classe, literalmente.
+Método Final: Não pode ser sobre-escrito, apenas herdado do jeito que é.
+
+Existe herança para implementação e para diferença, a diferença é de que para implementação apenas agrega uma classe toda para outra
+e para diferença você agrega e adiciona mais para a nova classe.
