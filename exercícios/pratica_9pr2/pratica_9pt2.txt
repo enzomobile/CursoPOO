@@ -1,2 +1,4 @@
 Nessa prática eu aprendo o segundo tipo de polimorfismo:
-*Sobrecarga: 
+*Sobrecarga: Quando você faz um método ter múltiplas funcionalidades dentro de uma classe e com assinaturas diferentes.
+Uma pessoa pode se mover de várias formas diferentes dependendo de forças externas ou internas, então locomover() pode ter funcionalidades diferentes, dentro da classe pessoa, ao se ter assinaturas com quantidades e parâmetros diferentes.
+O PHP não possui suporte para sobrecarga, pelo menos não na versão do curso, a 5.
