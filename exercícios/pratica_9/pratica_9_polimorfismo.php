@@ -6,15 +6,19 @@
     <title>Prática 9 - Polimorfismo</title>
 </head>
 <body>
+    <pre>
     <?php
-        require_once 'ClasseAbsAnimal.php';
-        require_once 'ClasseAve.php';
-        require_once 'ClasseReptil.php';
-        require_once 'ClassePeixe.php';
-        require_once 'ClasseMamifero.php';
+        require_once 'Animais.php';
 
-        $peixe = new Peixe (20, 2, 4, "Amarelo");
-        print_r($peixe);
+        $cachorro = new Cachorro(34.5, 8, 7, "Golden");
+        print_r($cachorro);
+        $cachorro->locomover();
+        $cachorro->emitirSom();
+        $cachorro->abanarRabo();
+        $cachorro->enterrarOsso();
+
+        //Todas as classes operam da mesma forma, herdando da classe mãe e alterando os métodos da forma necessária.
     ?>
+    </pre>
 </body>
 </html>

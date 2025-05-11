@@ -1,7 +1,7 @@
 <?php
     require_once 'ClasseAbsAnimal.php';
     Class Mamifero extends Animal {
-        private $corPelo;
+        protected $corPelo;
 
         public function __construct($p, $i, $m, $corp) {
             parent::__construct($p, $i, $m);

@@ -1,7 +1,7 @@
 <?php
     require_once 'ClasseAbsAnimal.php';
     class Reptil extends Animal {
-        private $corEscama;
+        protected $corEscama;
 
         public function __construct($p, $i, $m, $core) {
             parent::__construct($p, $i, $m);
@@ -9,13 +9,13 @@
         }
 
         public function emitirSom() {
-            echo "<p>Som de ave</p>";
+            echo "<p>Som de réptil</p>";
         }
         public function locomover() {
-            echo "<p>Voando</p>";
+            echo "<p>Rastejando</p>";
         }
         public function alimentar() {
-            echo "<p>Comendo frutas</p>";
+            echo "<p>Comendo frutas/coisas</p>";
         }
 
         public function getCorEscama() {

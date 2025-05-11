@@ -1,7 +1,7 @@
 <?php
     require_once 'ClasseAbsAnimal.php';
     class Ave extends Animal {
-        private $corPena;
+        protected $corPena;
 
         public function __construct($p, $i, $m, $corp) {
             parent::__construct($p, $i, $m);
