@@ -1,0 +1,5 @@
+Na aula conceitual, eu aprendi o conceito de Polimorfismo, último dos pilares da OO.
+É quando um mesmo nome representa vários comportamentos diferentes.
+O conceito de assinatura de métodos é trabalhado: Métodos vão possuir uma assinatura igual caso tenham a mesma quantidade de parâmetros e tipos iguais de parâmetro. Caso qualquer uma das duas for diferentes, os métodos não têm assinatura igual.
+--Tipos de Polimorfismo:
+*Sobreposição: Esse foi trabalhado, você pega um método de uma classe abstrata, super-classe normal ou interface e adiciona a sua funcionalidade ou sobre-escreve ela.
